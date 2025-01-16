@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 7inch Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <h1 class="title">The 7inch Club</h1>
+        <p class="subtitle">Disorder by Byrd</p>
+    </div>
+    <div class="section" id="countdown">
+        <h2>Launching Soon</h2>
+        <p id="timer"></p>
+    </div>
+    <div class="section" id="content">
+        <h2>Explore</h2>
+        <ul>
+            <li><a href="#interviews">Interviews</a></li>
+            <li><a href="#clothing">Clothing</a></li>
+            <li><a href="#vlogs">Vlogs</a></li>
+            <li><a href="#podcasts">Podcasts</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>Stay updated: <input type="email" placeholder="Your email"> <button>Sign Up</button></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
